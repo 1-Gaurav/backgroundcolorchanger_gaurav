@@ -1,0 +1,49 @@
+html {
+    margin: 0;
+    background-image: url('pic1.jpg');
+    background-size: cover; /* Ensures the background image covers the whole screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100%; /* Full viewport height */
+}
+
+span {
+    display: block;
+}
+
+.canvas {
+    margin: 100px auto; /* Automatically centers the canvas horizontally */
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Optional: rounds the corners of the canvas */
+    background-color: rgba(255, 255, 255, 0.8); /* A subtle white background with transparency */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for better visibility */
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    margin: 10px; /* Adds spacing between buttons */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    border-radius: 8px; /* Rounds button corners */
+}
+
+#grey {
+    background: grey;
+}
+
+#white {
+    background: white;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
